@@ -1,15 +1,15 @@
 # Web Animation
 
-A collection of small, focused animations built with HTML, CSS, and JavaScript to explore motion, interaction, and UI behavior on the web.
+A collection of focused animations built with HTML, CSS, and JavaScript to explore motion, interaction, and UI behavior on the web.
 
 ## 🎯 Purpose
 
-This repository serves as a personal playground for:
+This repository serves as a playground for:
 - Practicing web animation fundamentals
 - Exploring UI interactions and transitions
-- Improving frontend skills through small, finished experiments
+- Improving frontend skills through well-defined, finished experiments
 
-Each animation is kept **simple, isolated, and intentional**, focusing on one idea at a time.
+Each page focuses on a **single idea or theme**, combining multiple animations and interactions into a cohesive exploration.
 
 ## 🛠️ Technologies Used
 
