@@ -21,8 +21,24 @@ Each animation is kept **simple, isolated, and intentional**, focusing on one id
 
 No frameworks, no libraries — just core web technologies.
 
+## 📁 Structure
+
+The repository is organized by **ideas or themes**, where each folder represents a complete web page focused on exploring a specific concept.
+
+Example:
+- `light-effects/`
+- `motion-basics/`
+- `hover-interactions/`
+
+Each folder contains a full web page showcasing multiple animations related to the same idea, typically including:
+- `index.html`
+- `style.css`
+- `script.js`
+
+This approach allows deeper exploration of a single concept per page, combining multiple animations and interactions into a cohesive experiment.
+
 ## 🚀 How to Run
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/drewIt273/web-animation.git
