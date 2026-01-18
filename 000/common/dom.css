@@ -2,3 +2,33 @@
  * Instance by DrewIt
  * dom.css
  */
+
+@font-face {
+    font-family: 'OpenFont';
+    src: url(Openfont.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100dvh;
+    font-family: 'OpenFont';
+    color: #000000c2;
+}
+body .da-container {
+    padding: 0 5em;
+    position: relative;
+}
+body .va-container {
+    padding: 3em 0;
+}
+body #main-header {
+    font-size: 40px;
+    max-width: 20em;
+    padding-top: 4em;
+    text-align: center;
+    justify-self: center;
+}
