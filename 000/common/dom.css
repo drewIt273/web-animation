@@ -32,3 +32,52 @@ body #main-header {
     text-align: center;
     justify-self: center;
 }
+body #sub-header {
+    font-size: 15px;
+    justify-self: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+body .se-container {
+    margin-top: 50px;
+}
+.se-container h4.header {
+    font-size: 2em;
+    font-weight: 300;
+    justify-self: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+.se-container h4.header:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    border-radius: 8px;
+    background-color: #00000057;
+    top: 50px;
+    justify-self: anchor-center;
+}
+.centered {
+    justify-self: center;
+    text-align: center;
+}
+.max-w\[31\] {
+    max-width: 31em;
+}
+.rd-container {
+    padding: 20px 10px;
+}
+.da-flex {
+    display: flex;
+    gap: 30px;
+}
+.rd-container .con1 {
+    width: 50%;
+}
+@media (min-width: 1150px) {
+    .rd-container {
+        padding: 20px 150px;
+    }
+}
