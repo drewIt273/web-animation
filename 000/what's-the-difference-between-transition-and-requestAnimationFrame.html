@@ -10,7 +10,7 @@
             <div id="main-block" class="lg-container" data-state="open">
                 <div id="main-header">What's the difference between transition and requestAnimationFrame</div>
                 <p id="sub-header" class="max-w[31]">CSS transition and requestAnimationFrame do not solve the same problem. They both animate, but they live at completely different layers of the system.</p>
-                <div class="d-flex">
+                <div class="d-flex" data-labelledByDots="0">
                     <div id="css-transitions" class="se-container" data-state="open" left>
                         <h4 class="header">CSS Transitions</h4>
                         <div class="rd-container centered w-fit">
@@ -18,12 +18,17 @@
                         </div>
                         <div id="go-transitions-block" class="centered d-button"><span>CSS Transitions</span></div>
                     </div>
-                    <div id="requestAnimationFrame" class="se-container d-none" data-state="close" right>
+                    <div id="requestAnimationFrame" class="se-container" data-state="close" right>
                         <h4 class="header">JS requestAnimationFrame</h4>
                         <div class="rd-container centered w-fit">
                             <p class="centered max-w[31]"></p>
                         </div>
                     </div>
+                </div>
+                <div class="d-flex w-fit x-navigator labelledByDots items-center centered pt[30px]">
+                    <div id="go-left"></div>
+                    <div id="dots-label-content" class="items-center" data-dotsFocusNumber="0"></div>
+                    <div id="go-right"></div>
                 </div>
             </div>
             <div id="css-transitions-block" class="lg-container d-none" data-state="close"></div>
