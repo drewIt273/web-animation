@@ -35,4 +35,31 @@
             <div id="js-requestAnimationFrame-block" class="lg-container d-none" data-state="close"></div>
         </div>
     </body>
+    <script>
+        let d = document.getElementById('dots-label-content'), df = document.querySelector('[data-labelledByDots]');
+        if (d.getAttribute('data-dotsFocusNumber') === df.getAttribute('data-labelledByDots')) {
+            for (let i = 0; i < df.childElementCount; i++) {
+                let a = document.createElement('span'); a.classList.add('dot');
+                d.appendChild(a)
+            }
+            let k = _n(), a = k[0], b = k[1];
+            a.forEach(n => {
+                n.addEventListener('click', () => {
+                    let h = b[a.indexOf(n)]; b.forEach(c => {sa(c, 'data-state', 'close')}); h.setAttribute('data-state', 'open');
+                    _n()
+                })
+            })
+        }
+        function sa(n, a, v) {
+            n.setAttribute(a, v)
+        }
+        function ds(a) {
+            return a.getAttribute('data-state')
+        }
+        function _n() {
+            let a = Array.from(d.querySelectorAll('.dot')), b = Array.from(df.querySelectorAll('.se-container')); a.forEach(s => s.classList.remove('focus'));
+            a[b.indexOf(b.filter(n => ds(n) === 'open')[0])].classList.add('focus');
+            return [a, b]
+        }
+    </script>
 </html>
