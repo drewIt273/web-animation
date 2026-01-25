@@ -6,17 +6,22 @@
         <link rel="stylesheet" href="common/dom.css">
     </head>
     <body>
-        <div class="da-container">
-            <div id="main-header">What's the difference between transition and requestAnimationFrame</div>
-            <p id="sub-header" class="max-w[31]">CSS transition and requestAnimationFrame do not solve the same problem. They both animate, but they live at completely different layers of the system.</p>
-            <div id="css-transitions" class="se-container">
-                <h4 class="header">CSS Transitions</h4>
-                <div class="rd-container">
-                    <p class="centered max-w[31]">A CSS transition is declarative. You say: <i>"When this value changes, interpolate it over time using this easing."</i> And then you step away.</p>
-                    <div class="da-flex">
-                        <div class="con1">
+        <div class="da-container h-dvh">
+            <div id="main-block" class="lg-container" data-state="open">
+                <div id="main-header">What's the difference between transition and requestAnimationFrame</div>
+                <p id="sub-header" class="max-w[31]">CSS transition and requestAnimationFrame do not solve the same problem. They both animate, but they live at completely different layers of the system.</p>
+                <div class="d-flex">
+                    <div id="css-transitions" class="se-container" data-state="open" left>
+                        <h4 class="header">CSS Transitions</h4>
+                        <div class="rd-container centered w-fit">
+                            <p class="max-w[31]">A CSS transition is declarative. You say: <i>"When this value changes, interpolate it over time using this easing."</i> And then you step away.</p>
                         </div>
-                        <div class="con2"></div>
+                    </div>
+                    <div id="requestAnimationFrame" class="se-container d-none" data-state="close" right>
+                        <h4 class="header">JS requestAnimationFrame</h4>
+                        <div class="rd-container centered w-fit">
+                            <p class="centered max-w[31]"></p>
+                        </div>
                     </div>
                 </div>
             </div>
