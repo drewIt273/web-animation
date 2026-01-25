@@ -83,6 +83,28 @@ body .se-container {
 .d-none {
     display: none;
 }
+.d-button {
+    appearance: none;
+    appearance: none;
+    color: #fff;
+    background: #000000c2;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+    transition-delay: .7s;
+    opacity: 0;
+}
+.d-button:hover {
+    padding: 8px 27px;
+}
+.se-container:hover .d-button {
+    opacity: 1;
+    transition-delay: 0s;
+}
 .rd-container .con1 {
     width: 50%;
 }
